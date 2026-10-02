@@ -1,0 +1,60 @@
+# ============================================================
+#  AQUARIUS ACADEMIA — .gitignore
+#  Mantém o repositório limpo e seguro para publicação
+# ============================================================
+
+# --- Pastas internas do sistema de agentes (não pertencem ao projeto) ---
+.agents/
+.docs/
+
+# --- Variáveis de ambiente e segredos ---
+.env
+.env.local
+.env.*.local
+*.env
+
+# --- Dependências Node (caso seja adicionado futuramente) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# --- Build e distribuição ---
+dist/
+build/
+out/
+.cache/
+
+# --- Editores e IDEs ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+# --- Sistema Operacional ---
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Arquivos temporários ---
+*.tmp
+*.bak
+*.swp
+*~
+
+# --- Arquivos de referência/rascunho que não devem ir a produção ---
+assets/images/info.txt
+assets/images/SPEC.md
+assets/images/imagm01.jpg
+assets/images/imagme02.jpg
+assets/images/Logo\ Circular\ Aquarius\ Academia\ Fitness.png
